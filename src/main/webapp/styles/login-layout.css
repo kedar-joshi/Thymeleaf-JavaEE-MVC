@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body
+{
+	height: 100%;
+	min-height: 600px;
+	min-width: 500px;
+
+	background-color: #FFFFFF;
+}
+
+.page
+{
+	position: absolute;
+
+	top: 0px;
+	right: 0px;
+	bottom: 100px;
+	left: 0px;
+
+	height: 300px;
+	width: 100%;
+
+	text-align: center;
+
+	margin: auto;
+}
+
+.branding
+{
+	height: 250px;
+	text-align: left;
+
+	vertical-align: middle;
+
+	padding: 20px 75px 20px 20px;
+	margin-right: 75px;
+
+	border-right-width: 1px;
+
+	display: inline-block;
+}
+
+.company-branding
+{
+	height: 40px;
+	line-height: 35px;
+
+	color: #2196F3;
+	font-size: 30px;
+	font-weight: 300;
+
+	margin-top: 60px;
+}
+
+.product-branding
+{
+	color: #555555;
+
+	font-size: 60px;
+	letter-spacing: 5px;
+}
+
+.login-form, .sign-up-form, .forgot-password-form
+{
+	vertical-align: top;
+	display: inline-block;
+}
+
+.form-header
+{
+	line-height: 40px;
+}
+
+.footer
+{
+	position: absolute;
+
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+
+	height: 40px;
+	line-height: 40px;
+
+	font-size: 16px;
+	font-weight: 300;
+
+	text-align: center;
+}

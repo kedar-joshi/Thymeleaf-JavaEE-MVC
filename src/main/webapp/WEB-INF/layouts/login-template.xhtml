@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Bootstrap</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+	<!-- Favicon -->
+
+	<link rel="icon" type="image/x-icon" th:href="@{/images/favicon.ico}" />
+
+	<!-- Common styles -->
+
+	<link rel="stylesheet" type="text/css" th:href="@{/styles/common.css}" />
+	<link rel="stylesheet" type="text/css" th:href="@{/styles/form.css}" />
+
+	<!-- View specific styles -->
+
+	<link rel="stylesheet" type="text/css" th:href="@{/styles/login-layout.css}" />
+
+	<th:block th:include="${view} :: styles" />
+
+	<!-- Common scripts -->
+
+	<!-- View specific scripts -->
+
+	<th:block th:include="${view} :: scripts" />
+
+</head>
+<body>
+
+	<div class="body">
+		<div class="page">
+
+			<div class="branding">
+
+				<div class="company-branding" th:text="${company}">Some Default Company</div>
+				<div class="product-branding" th:text="${product}">Bootstrap</div>
+
+			</div>
+
+			<div th:replace="${view} :: page">
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
