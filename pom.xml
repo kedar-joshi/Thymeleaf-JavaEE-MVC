@@ -7,7 +7,7 @@
 	<artifactId>Thymeleaf-JavaEE-MVC-1.0</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>Thymeleaf JavaEE MVC Maven Webapp</name>
+	<name>Thymeleaf JavaEE MVC</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
